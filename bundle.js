@@ -61,6 +61,10 @@
 	// app's js files
 	__webpack_require__(31);
 	__webpack_require__(32);
+	__webpack_require__(33);
+	__webpack_require__(34);
+	__webpack_require__(35);
+	__webpack_require__(36);
 
 
 /***/ },
@@ -27741,7 +27745,7 @@
 
 
 	// module
-	exports.push([module.id, "body {\n\n}\n\n@font-face {\n  font-family: futura;\n  src: url(" + __webpack_require__(22) + ");\n}\n\n.center {\n  text-align: center;\n}\n\n.left-spacing {\n  margin-left: 20px;\n}\n\n.top-spacing {\n  margin-top: 40px;\n}\n\n.right-spacing {\n  margin-right: 10px;\n}\n\n.section {\n  padding-top:70px;\n  padding-bottom: 10px;\n}\n\n.rotate {\n  -webkit-transform: rotate(-90deg);\n  -moz-transform: rotate(-90deg);\n  -ms-transform: rotate(-90deg);\n  -o-transform: rotate(-90deg);\n  transform: rotate(-90deg);\n  transition: all 1x ease;\n}\n", ""]);
+	exports.push([module.id, "body {\n\n}\n\n@font-face {\n  font-family: futura;\n  src: url(" + __webpack_require__(22) + ");\n}\n\n.center {\n  text-align: center;\n}\n\n.left-spacing {\n  margin-left: 20px;\n}\n\n.top-spacing {\n  margin-top: 40px;\n}\n\n.right-spacing {\n  margin-right: 10px;\n}\n\n.section {\n  padding-top:70px;\n  padding-bottom: 60px;\n  border-bottom: 1px solid lightgray;\n}\n\n.rotate {\n  -webkit-transform: rotate(-90deg);\n  -moz-transform: rotate(-90deg);\n  -ms-transform: rotate(-90deg);\n  -o-transform: rotate(-90deg);\n  transform: rotate(-90deg);\n  transition: all 1x ease;\n}\n", ""]);
 
 	// exports
 
@@ -27787,7 +27791,7 @@
 
 
 	// module
-	exports.push([module.id, "#about {\n  padding-bottom: 220px;\n}\n\n#name {\n  font-size:100px;\n  margin-top:150px;\n}\n", ""]);
+	exports.push([module.id, "#about {\n  display:flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n\n#name {\n  font-size:100px;\n  margin-top:150px;\n}\n", ""]);
 
 	// exports
 
@@ -27827,7 +27831,7 @@
 
 
 	// module
-	exports.push([module.id, "#projects {\n  padding-bottom: 120px;\n  padding-right: 120px;\n  padding-left: 120px;\n}\n\n.project {\n  background-color: lightgray;\n  height: 200px;\n  width: 75%;\n  margin: 0 auto;\n  display:flex;\n  justify-content: center;\n  align-items: center;\n}\n\n#project1 {\n\n}\n\n#project2 {\n\n}\n\n.arrowCol {\n  height:500px;\n  display:flex;\n  flex-direction: column;\n  align-items:center;\n  justify-content: center;\n}\n\n.sliderArrow {\n  opacity: 0.6;\n}\n\n.dot {\n  opacity:0.3;\n}\n\n.activeDot {\n  opacity: 1;\n}\n", ""]);
+	exports.push([module.id, "#projects {\n  padding-bottom: 120px;\n  padding-right: 120px;\n  padding-left: 120px;\n}\n\n.project {\n  background-color: lightgray;\n  height: 200px;\n  width: 75%;\n  margin: 0 auto;\n  display:flex;\n  justify-content: center;\n  align-items: center;\n}\n\n#project2Title {\n  font-family:Helvetica;\n  color:white;\n  background-color:#337ab7;\n}\n\n#project1Title {\n  font-family:Helvetica;\n  color:white;\n  background-color:#337ab7;\n}\n\n.arrowCol {\n  height:500px;\n  display:flex;\n  flex-direction: column;\n  align-items:center;\n  justify-content: center;\n}\n\n.sliderArrow {\n  opacity: 0.6;\n}\n\n.dot {\n  opacity:0.3;\n}\n\n.activeDot {\n  opacity: 1;\n}\n", ""]);
 
 	// exports
 
@@ -27867,7 +27871,7 @@
 
 
 	// module
-	exports.push([module.id, "/* red: #ff3232 */\n.jobHeader {\n  background-color: #337ab7;\n  color: white;\n  padding: 10px;\n  border-top-left-radius: 5px;\n  border-top-right-radius: 5px;\n}\n\n.jobRole {\n  padding: 10px;\n  border-bottom-left-radius: 5px;\n  border-bottom-right-radius: 5px;\n  background-color:#d3d3d3;\n}\n", ""]);
+	exports.push([module.id, "/* red: #ff3232 */\n.jobHeader {\n  background-color: #337ab7;\n  color: white;\n  padding: 10px;\n  border-top-left-radius: 5px;\n  border-top-right-radius: 5px;\n}\n\n.jobRole {\n  padding: 15px;\n  border-bottom-left-radius: 5px;\n  border-bottom-right-radius: 5px;\n  background-color:white;\n  border:1px solid gray;\n}\n", ""]);
 
 	// exports
 
@@ -27907,7 +27911,7 @@
 
 
 	// module
-	exports.push([module.id, ".skill-icon {\n  height:125px;\n  width:125px;\n  border-radius:100%;\n  background-color:#337ab7;\n  text-align:center;\n  padding:30px;\n  color:white;\n  margin-left:auto;\n  margin-right:auto;\n}\n\n.skill-item {\n  width:initial;\n  margin-left:auto;\n  margin-right:auto;\n  background-color: #337ab7;\n  color:white;\n  padding: 15px;\n  border-radius:5px;\n}\n", ""]);
+	exports.push([module.id, ".skill-icon {\n  height:125px;\n  width:125px;\n  border-radius:100%;\n  background-color:#337ab7;\n  text-align:center;\n  padding:30px;\n  color:white;\n  margin-left:auto;\n  margin-right:auto;\n}\n\n.skill-item {\n  width:initial;\n  margin-left:auto;\n  margin-right:auto;\n  border-radius:5px;\n}\n", ""]);
 
 	// exports
 
@@ -27916,47 +27920,43 @@
 /* 31 */
 /***/ function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function($) {// main app file to control user interaction on page
+	/* WEBPACK VAR INJECTION */(function($) {// main app file to main page scrolling, navbar animations/interactions
 	'use strict';
 	(function() {
 
 	// global variables
-	var current = $('#aboutLink'); // current section web page is at
-	var dimensions = getSectionHeights(); // height dimensions for page section
-
-
+	var current = $('#aboutLink'); // current section tracker
+	$('#home').height($(window).height());
+	$('#footer').width($(window).width());
 
 	function main() {
 	  addButtonFunctions();
 	  initializePage();
-	  hoverAnimations();
-	  showHideSkills();
-
-	  $('#name').fadeIn(2000);
-	  // console.log($(window).width());
+	  setButtonClickOnSmallScreen();
 	}
 
-	// sets passed tab as the active tab for navbar tab highlighting
-	// sets active tab to experience and education if either tab is clicked/scrolled past
-	function setActiveTab(section) {
-	  if (current.is($('#experienceLink')) || current.is($('#educationLink'))) {
-	    $('#experienceLink').removeClass('active');
-	    $('#educationLink').removeClass('active');
-	  } else {
-	    current.removeClass('active');
-	  }
+	// ISSUE: NEED TO CLICK TWICE TO EXPAND THE WINDOW NOW
+	function setButtonClickOnSmallScreen() {
+	    $('.nav-item').on('click', function(event) {
+	      if ($('#navbar-collapse-tabs').attr('aria-expanded')) {
+	        $('#navbar-collapse-tabs').attr('aria-expanded', false);
+	        $('#navbar-collapse-tabs').height(1);
+	      }
+	    });
+	}
 
+
+	// sets passed tab as the active tab for navbar tab highlighting
+	function setActiveTab(section) {
+	  current.removeClass('active');
 	  current = $('#' + section + 'Link');
-	  if (section === 'experience' || section === 'education') {
-	    $('#experienceLink').addClass('active');
-	    $('#educationLink').addClass('active');
-	  } else {
-	    current.addClass('active');
-	  }
+	  current.addClass('active');
+
 	}
 
 	// handles scrolling animation
 	function scrollToSection(event) {
+	  event.preventDefault();
 	  var section = event.target.innerText.toLowerCase().trim();
 	  setActiveTab(section);
 	  // set appropriate navbar color
@@ -27965,8 +27965,6 @@
 	  } else {
 	    setNavNextBackground();
 	  }
-
-	  // temporarily removes scrolling function when button is clicked
 	  $(window).off('scroll', scrollingTab);
 	  $('html, body').animate({
 	    scrollTop: $('#' + section).offset().top
@@ -27975,72 +27973,50 @@
 	  });
 	}
 
-	// all click interactions on webpage
+	// add scrolling function for navbar
 	function addButtonFunctions() {
-	  // add scrolling function to all navigation items in bar
 	  $('.nav-item').on('click', scrollToSection);
-
-	  $('.rotateButton').on('click', function(event) {
-	    var targetId = event.target.id + "Section";
-	    // console.log(event.target);
-	    if ($('#' + event.target.id).hasClass('rotate')) {
-	      $('#' + event.target.id).removeClass('rotate');
-	      // $('#' + targetId).hide({duration: 700});
-	      $('#' + targetId).slideToggle(1000);
-	    } else {
-	      $('#' + event.target.id).addClass('rotate');
-	      $('#' + targetId).slideToggle(1000);
-	    }
-	  });
-
-	  $('.rotateButton').hover(function() {
-	    $(this).css({'font-size': '3em', 'cursor':'pointer'});
-	  }, function() {
-	    $(this).css({'font-size': '2em', 'cursor':'default'});
-	  });
-
-
 	  $(window).scroll(scrollingTab);
 	}
 
-	// calculates the starting height for all the specific sections of page
-	function getSectionHeights() {
-	  var navHeight = $('#navbar').height();
-	  var aboutHeight = $('#about').height();
-	  var experienceHeight = $('#experience').height();
-	  var skillsHeight = $('#skills').height();
-	  var projectsHeight = $('#projects').height();
-	  var additionalHeight = $('#additonal').height();
-	  return {
-	    about: navHeight,
-	    experience: navHeight + aboutHeight,
-	    skills: aboutHeight + experienceHeight - 100,
-	    projects: aboutHeight + experienceHeight + skillsHeight - 100,
-	  };
-	}
 
 	// connects scrolling to page to be linked to active tags on navbar
 	function scrollingTab(event) {
 	  event.preventDefault();
-	  var scroll = $(window).scrollTop();
-	  if (scroll >= 0 && scroll < dimensions.experience) {
-	    setActiveTab('home');
-	    // set navbar back to beginning
-	    setNavInitialBackground();
+	  var experienceHeight = $('#experience').offset().top - 70;
+	  var skillsHeight = $('#skills').offset().top - 200;
+	  var projectsHeight = $('#projects').offset().top - 200;
+	  var contactHeight = $('#contact').offset().top - 200;
 
-	  } else if (scroll > dimensions.experience && scroll < dimensions.skills) {
+	  var scroll = $(window).scrollTop();
+	  if (scroll >= 0 && scroll < experienceHeight) {
+	    setActiveTab('home');
+	    setNavInitialBackground();
+	  }
+	  if (scroll > experienceHeight && scroll < skillsHeight) {
 	    setActiveTab('experience');
-	    // set navbar to new one
 	    setNavNextBackground();
-	  } else if (scroll > dimensions.skills && scroll < dimensions.projects) {
+	  }
+	  if (scroll > skillsHeight && scroll < projectsHeight) {
 	    setActiveTab('skills');
-	  } else if (scroll > dimensions.projects) {
+	    setNavNextBackground();
+	  }
+	  if (scroll > projectsHeight && scroll < contactHeight) {
 	    setActiveTab('projects');
+	    setNavNextBackground();
+	  }
+	  if (scroll > contactHeight) {
+	    setActiveTab('contact');
+	    setNavNextBackground();
 	  }
 	}
 
-	// TODO: SET ANIMATION FOR NAVBAR CHANGING
+	// set white background for navigation bar
 	function setNavInitialBackground() {
+	  $('#small-navbar-header').css({
+	    'background-color':'white',
+	    'opacity':'1'
+	  })
 	  $('#navbar-collapse-tabs').css({
 	    'background-color':'white',
 	    'opacity':'1'
@@ -28050,76 +28026,26 @@
 	  });
 	}
 
-	// TODO: SET ANIMATION FOR NAVBAR CHANGING
+	// set dark background for navigation bar
 	function setNavNextBackground() {
+	  $('#small-navbar-header').css({
+	    'background-color':'#818181',
+	    'opacity':'0.9'
+	  });
 	  $('#navbar-collapse-tabs').css({
 	    'background-color':'#818181',
-	    'opacity':'0.7'
+	    'opacity':'0.9'
 	  });
 	  $('#navbar-collapse-tabs > ul > li > a').children().css({
 	    'color':'white'
 	  });
 	}
 
-	// add hover animations to webpage
-	function hoverAnimations() {
-	    // TODO: add click function
-	    $('#project1').hover(function() {
-	      $('#project1Title').css({'font-size':38, 'opacity':0.5});
-	    }, function() {
-	      $('#project1Title').css({'font-size':24, 'opacity': 1});
-	    });
-
-	    // TODO: add click function
-	    $('#project2').hover(function() {
-	      $('#project2Title').css({'font-size':38, 'opacity':0.5});
-	    }, function() {
-	      $('#project2Title').css({'font-size':24, 'opacity': 1});
-	    });
-
-
-	    // skills icons hover function, set opacity
-	    $('.skill-icon').hover(function() {
-	      $(this).css({'opacity': 0.5, 'cursor' :'pointer'});
-	    }, function() {
-	      $(this).css({'opacity': 1});
-	    });
-
-	    $('.sliderArrow').hover(function() {
-	      $(this).css({'opacity':1, 'cursor':'pointer'});
-	    }, function() {
-	      $(this).css({'opacity':0.6, 'cursor':'default'});
-	    });
-	}
-
-	// shows/hides the skills sections when button is clicked
-	function showHideSkills() {
-	    $('.skill-icon').on('click', function(event) {
-	      var id = event.target.id;
-	      if ($(event.target).is('div')) {
-	        id = $(event.target).children()[0].id;
-	      }
-	      $('#' + id + 'Skills').slideToggle(1000);
-	    });
-	}
-
 	// hides and shows secitons on inital page load
 	function initializePage() {
-	  // hide job sections on initial page load
 	  $('#radiationSection').hide();
 	  $('#developerSection').hide();
 	  $('#courseworkSection').hide();
-
-	  addProjects(2);
-	  // $('#skills').css({'margin-left': $(window).width() / 4});
-	  $('#project1dot').addClass('activeDot');
-	}
-
-	// sets number of projects to be tracked
-	function addProjects(number) {
-	  for (var i = 1; i <= number; i++) {
-	    $('#sliderTracker').append('<i class="fa fa-circle top-spacing left-spacing dot" style="color:black;" id="project' + i + 'dot"></i>');
-	  }
 	}
 
 
@@ -28213,6 +28139,311 @@
 
 
 
+
+
+	})();
+
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
+
+/***/ },
+/* 33 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function($) {// handles interactions for experience/education section of page 
+
+	'use strict';
+	(function() {
+
+	function main() {
+	  createRotateButtonInteractions();
+	  createHeaderInteractions();
+	}
+
+
+	// toggles showing/hiding the main job description for the experience blocks
+	function loadDescription(event) {
+	  if ($(event.target).is('i')) {
+	    var targetId = event.target.id + 'Section';
+	    var arrowId = event.target.id;
+	  } else if ($(event.target).is('div')) {
+	    var arrowId = $(event.target).find('i')[0].id;
+	    var targetId = $(event.target).find('i')[0].id + 'Section';
+	  } else if ($(event.target).is('h3') || $(event.target).is('p') || $(event.target).is('h4')) {
+	    var target = $(event.target).parent()[0];
+	    var arrowId = $(target).find('i')[0].id;
+	    var targetId = $(target).find('i')[0].id + 'Section';
+	  }
+	  // toggles arrow icon
+	  $('#' + arrowId).toggleClass('rotate');
+	  $('#' + targetId).slideToggle(1000);
+	}
+
+	// handle/click interactions on rotate button
+	function createRotateButtonInteractions() {
+	  $('.rotateButton').on('click', loadDescription);
+	  // changes cursor when pointer goes over rotation cursor
+	  $('.rotateButton').hover(function() {
+	    $(this).css({'cursor':'pointer'});
+	  }, function() {
+	    $(this).css({'cursor':'default'});
+	  });
+	}
+
+	// adds hover/click interactions over job headers
+	function createHeaderInteractions() {
+	  $('.jobHeader').hover(function() {
+	      $(this).css({'cursor':'pointer', 'opacity':'0.6'});
+	  }, function() {
+	      $(this).css({'cursor':'default', 'opacity':'1'});
+	  });
+	  $('.jobHeader').on('click', loadDescription);
+	}
+
+
+
+
+
+	main();
+
+	})();
+
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
+
+/***/ },
+/* 34 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function($) {// handles initial page loading and home section interactions/animations
+	'use strict';
+	(function() {
+
+	function main() {
+	  $('#name').fadeIn(2000);
+	}
+
+
+	main();
+
+	})();
+
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
+
+/***/ },
+/* 35 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function($) {// handles button/section interactions for skills section of webpage
+
+	'use strict';
+	(function() {
+
+	function main() {
+	  showHoverSkill();
+	  toggleSkillSections();
+	}
+
+	// adds hover option to skill icons
+	function showHoverSkill() {
+	  $('.skill-icon').hover(function() {
+	    $(this).css({
+	      'opacity':0.5,
+	      'cursor': 'pointer'
+	    });
+	  }, function() {
+	    $(this).css({
+	      'opacity': 1
+	    });
+	  });
+	}
+
+	// adds toggle function to skill button icons
+	function toggleSkillSections() {
+	  $('.skill-icon').on('click', function(event) {
+	    var id = event.target.id;
+	    if ($(event.target).is('div')) {
+	      id = $(event.target).children()[0].id;
+	    }
+	    $('#' + id + 'Skills').slideToggle(800);
+	  });
+	}
+
+
+
+	main();
+
+
+	})();
+
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
+
+/***/ },
+/* 36 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function($) {'use strict';
+	(function() {
+
+
+	var project1Focused = false;
+	var project2Focused = false;
+
+
+	function main() {
+	  addHoverInteraction();
+	  addProject1Click();
+	  addProject2Click();
+	}
+
+	// grows and shrinks project 1
+	function addProject1Click() {
+	  $('#project1').on('click', function(event) {
+	    event.preventDefault();
+	    if (project1Focused === false) {
+	      project1Focused = true;
+	      $('#imageContainer').removeClass('col-md-12');
+	      $('#imageContainer').addClass('col-md-7');
+	      $('#imageContainer').css({
+	        'height':'100%'
+	      });
+	      $('#image1').css({
+	        'height':'100%'
+	      });
+	      $('#project1').animate({
+	        height:'500px',
+	        width: '900px'
+	      }, function() {
+	        $('#project2').hide();
+	      });
+	      $('#project1Title').hide();
+	      $('#project2').animate({
+	        height:'0px',
+	        width:'0px'
+	      });
+	      $('#specifics1').show(100);
+	      $('#projects').css({'overflow':'auto'});
+	    } else {
+	      project1Focused = false;
+	      $('#imageContainer').removeClass('col-md-7');
+	      $('#imageContainer').addClass('col-md-12');
+	      $('#imageContainer').css({
+	        'height':'80%'
+	      });
+	      $('#image1').css({
+	        'height':'80%'
+	      });
+	      $('#project1').animate({
+	        height:'300px',
+	        width: '450px'
+	      });
+	      $('#specifics1').hide(500);
+	      $('#project2').animate({
+	        height:'300px',
+	        width: '450px'
+	      });
+	      $('#project1Title').show();
+	      $('#project2').show();
+	      $('#projects').css({'overflow':'visible'});
+	    }
+	  });
+	}
+
+	// grows and shrinks project 2
+	function addProject2Click() {
+	  $('#project2').on('click', function(event) {
+	    event.preventDefault();
+	    if (project2Focused === false) {
+	      project2Focused = true;
+	      $('#image2').css({
+	        'height':'80%'
+	      });
+	      $('#project1').animate({
+	        height:'0px',
+	        width:'0px'
+	      }, function() {
+	        $('#project1').hide();
+	      });
+	      $('#project2Title').hide();
+	      $('#project2').animate({
+	        height:$('#specifics2').height(),
+	        width:'900px'
+	      });
+	      $('#headlinesImage').css({
+	        'height':'80%',
+	        'width':'80%'
+	      });
+	      $('#specifics2').show();
+	      $('#projects').css({'overflow':'auto'});
+	    } else {
+	      project2Focused = false;
+	      $('#specifics2').hide();
+	      $('#project1').animate({
+	        height:'300px',
+	        width:'450px'
+	      });
+	      $('#image2').css({
+	        'height':'60%'
+	      });
+	      $('#headlinesImage').css({
+	        'height':'100%',
+	        'width':'100%'
+	      });
+	      $('#project2').animate({
+	        height:'300px',
+	        width: '450px'
+	      });
+	      $('#project2Title').show();
+	      $('#project1').show();
+	      $('#projects').css({'overflow':'visible'});
+	    }
+	  });
+	}
+
+	// adds hover function over project sections
+	function addHoverInteraction() {
+	  $('.projectContainer').hover(function() {
+	      $(this).css({
+	        'background-color':'lightgray',
+	        'opacity':0.6,
+	        'cursor':'pointer',
+	      });
+
+	      $('#specifics1').css({
+	        'background-color':'lightgray',
+	        'opacity':0.6,
+	        'cursor':'pointer',
+	      });
+
+	      $('#specifics2').css({
+	        'background-color':'lightgray',
+	        'opacity':0.6,
+	        'cursor':'pointer',
+	      });
+
+	  }, function() {
+	      $(this).css({
+	        'background-color':'white',
+	        'opacity':1,
+	        'cursor':'default',
+	      });
+
+	      $('#specifics1').css({
+	        'background-color':'white',
+	        'opacity':1,
+	        'cursor':'default',
+	      });
+
+	      $('#specifics2').css({
+	        'background-color':'white',
+	        'opacity':1,
+	        'cursor':'default',
+	      });
+	  });
+
+
+
+	}
+
+	main();
 
 
 	})();
