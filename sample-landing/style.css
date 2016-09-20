@@ -37,14 +37,14 @@ html, body {
 }
 
 .small {
-	font-size: 0.8em;
+	font-size: 0.5em;
 	text-transform: lowercase;
 }
 
 /* HOME SECTION STYLES
 ------------------------------------------------------------------------- */
 .home {
-	/* margin-bottom: 20%; */
+	margin-bottom: 20%; 
 	min-height: 700px;
 	/* height: 100%;*/
 	/*
