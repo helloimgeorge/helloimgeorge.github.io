@@ -67,6 +67,12 @@ function stopInterval() {
 	clearInterval(quoteInterval);
 }
 
+function goToUrl(url) {
+	window.location = url;
+}
+
+
+
 
 init();
 $("#scroll-button").on('click', scrollToAbout);
@@ -95,8 +101,12 @@ var textSections = [
 
 textSections.forEach(function(x) {
 	x.hide();
-})
+	x.fadeIn(1200);
+});
 
+
+
+/*
 $(window).scroll(function() {
 	textSections.forEach(function(x) {
 		var bottomObject = x.offset().top + x.outerHeight();
@@ -106,8 +116,34 @@ $(window).scroll(function() {
 			x.fadeIn(1200);
 		}
 	});
-
 });
+*/
+
+// button link event listeners
+$('#a-doggie-btn').click(function(event) {
+	event.preventDefault();
+	goToUrl('http://best.cityvoter.com/best/doggie-daycare/pets/seattle');
+});
+
+$('#a-boarding-btn').click(function(event) {
+	event.preventDefault();
+	goToUrl('http://best.cityvoter.com/best/boarding/pets/seattle');
+});
+
+
+$('#a-doggie-btn-2').click(function(event) {
+	event.preventDefault();
+	goToUrl('http://best.cityvoter.com/best/doggie-daycare/pets/seattle');
+});
+
+$('#a-boarding-btn-2').click(function(event) {
+	event.preventDefault();
+	goToUrl('http://best.cityvoter.com/best/boarding/pets/seattle');
+});
+
+
+
+
 
 
 

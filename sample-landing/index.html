@@ -2,8 +2,18 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>The Dog Resort</title>
+	<title>Vote The Dog Resort</title>
 
+	<!-- 
+	<meta name="viewport" content="width=device-width, initial-scale=0.6, minimum-scale=1.0, user-scalable=no">
+	-->
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+	<!-- 
+	<meta name="viewport" content="width=device-width">
+	<meta name="viewport" content="initial-scale=1.0">
+	<meta name="viewport" content="minimum-scale=1.0">
+	<meta name="viewport" content="user-scalable=no">
+	-->
 
 	<link rel="stylesheet" href="bootstrap.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
@@ -11,68 +21,56 @@
 	<link rel="stylesheet" href="animations.css">
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" media="screen and (min-width: 1400px)" href="responsive.css">
-	<link rel="stylesheet" media="screen and (max-width: 500px)" href="mobile.css">
+	<link rel="stylesheet" media="screen and (max-device-width: 500px)" href="mobile.css">
 </head>
 <body>
 	<div class="container-fluid">
 		
 		<div class="row home">
-			 
+			<!--
 			<div class="background-container">
 				<img src="assets/Background1.jpg">
 			</div>
-			
-			<div class="col-md-6 col-md-offset-2 col-sm-offset-2" id="home-text">
+			-->
+			<div class="col-md-6 col-md-offset-2 col-sm-8 col-sm-offset-0" id="home-text" style="margin-left: 0px;">
 				<div class="row" style="margin-top:0px;">
-					<div class="row" style="padding-bottom: 0px; padding-left: 15px;">
+					<div class="row" style="padding-left: 15px; margin-top: 0px; padding-bottom: 0px;">
+						<h4>Seattle A-List Contest</h4>
+					</div>
+					<!-- includes padding-left: 15px -->
+					<div class="row" style="padding-bottom: 0px; padding-left: 15px; margin-top:0px;">
 						<h1 style="margin-bottom: 0px;">Vote for</h1>
 					</div>
 					<div class="row" style="padding-bottom: 0px; padding-left: 15px;">
 						<h1 style="margin-bottom: 0px;">The Dog Resort</h1> 
 					</div>
-					<div class="row" style="padding-left: 15px; padding-bottom: 0px;">
-						<h4 style="margin-top:0px;">Best of Western Washington Contest</h4>
+
+					<div class="row" style="padding-left: 15px;">
+						<h5>Vote now to recieve promotion deal, purchase $100 of services for $50!</h5>
 					</div>
 
-					<div class="row" style="display:flex; padding-left: 15px; margin-top:0px;">
-						<button class="btn" id="best-wash-btn">
-							<p>Vote Here!</p>
-							<span class="small">Pets: Boarding and Daycare</span>
-						</button>
-					</div>
-
-					<div class="row" style="padding-left: 15px; margin-top: 0px; padding-bottom: 0px;">
-						<h4>Seattle A-List Contest</h4>
-					</div>
-
-					<div class="row" style="padding-left: 15px; display: flex; margin-top: 0px;">
+					<div class="row" style="padding-left: 15px; margin-top: 100px;" id='home-btn-container'>
 						<button class="btn" id="a-boarding-btn" style="margin-right: 10px;">
 							<p>Vote Here!</p>
-							<span class="small">Best Boarding</span>
+							<span class="small">BEST BOARDING</span>
 						</button>
 
 						<button class="btn" id="a-doggie-btn">
 							<p>Vote Here!</p>
-							<span class="small">Best Doggie Daycare</span>
+							<span class="small">BEST DOGGIE DAYCARE</span>
 						</button>
 					</div>
 				</div>
 
 				<div class="row" style="margin-top: 0px; padding-bottom: 0px; margin-bottom: 5%;">
-					<!-- 
-					<button class="btn" href="#" style="margin-top: 0px;">
-						<p>Vote Here!</p>
-						<span class="small">(vote and get a special discount for your next visit!)</span>
-					</button>
-					-->
-					<a href="#about" id="scroll-button">Why Vote For Us?</a>
+					<a href="#about" id="scroll-button" style="background-color: #4CAF50; padding-top: 12px; padding-bottom: 12px;">Why Vote For Us?</a>
 				</div>
 
 			</div>
 		</div>
 
 		<div class="row about" id="about">
-			<div class="col-md-5 col-md-offset-2 col-sm-10">
+			<div class="col-md-5 col-md-offset-2 col-sm-12">
 				<div id="about-text">
 				<h1>Our Story</h1>
 				<p>
@@ -94,11 +92,11 @@
 				</p>
 				</div>
 			</div>
-			<div class="col-md-4 col-sm-12">
+			<div class="col-lg-4 col-lg-offset-0 col-md-4 col-sm-12 col-md-offset-0 ">
 				<div class="logo-pic col-sm-6">
 					<img src="assets/dog-resort-logo.jpg">
 				</div>
-				<div class="profile-pic col-sm-6">
+				<div class="profile-pic col-sm-6" style="margin-left: 30px;">
 					<img src="assets/dog-resort-profile.jpg">
 				</div>
 			</div>
@@ -108,13 +106,13 @@
 			<h1>Our Work</h1>
 			<div class="row">
 
-				<div class="col-md-4">
+				<div class="col-md-4" >
 					<div class="icon-container">
 						<img src="assets/service-icon.png" class="work-icon-image">
 					</div>
 					<h3>Community Service</h3>
 					<div class="work-container">
-						<p>The Dog Resort specializes in providing care to rescue dogs. The Dog Resort donates thousands of dollars to shelters.</p>
+						<p>The Dog Resort specializes in providing care to rescue dogs and special needs dogs. The Dog Resort donates thousands of dollars to shelters through charity fundraising and participates in volunteer charity work. </p>
 					</div>
 
 				</div>
@@ -125,7 +123,7 @@
 					</div>
 					<h3>Services</h3>
 					<div class="work-container">
-						<p>The Dog Resort doesn’t charge extra to care for special needs dogs. The Dog Resort has one of the largest outdoor play areasa in Seattle.
+						<p>The Dog Resort doesn’t charge extra to care for special needs dogs. The Dog Resort has one of the largest outdoor play areas in Seattle.
 						</p>
 					</div>
 				</div>
@@ -146,7 +144,7 @@
 		</div>
 
 		<div class="row awards" id="awards-text">
-			<div class="col-md-5 col-md-offset-2">
+			<div class="col-md-5 col-md-offset-2 col-sm-offset-0">
 				<h1 class="bottom-spacing">Our Awards</h1>
 				<p class="no-bottom-spacing">Best of Western Washington in Doggie Daycare</p>
 				<p class="left-indent no-bottom-spacing">
@@ -155,7 +153,7 @@
 				</p>
 
 				<p class="left-indent bottom-spacing">
-					<img src="assets/gold-medal.png" class="medal">
+					<img src="assets/silver-medal.png" class="medal">
 					2013
 				</p>
 				<p class="no-bottom-spacing">Seattle A-List Current Ranking
@@ -206,25 +204,26 @@
 			<h1>What Our Clients Say</h1>
 			<div class="row">
 				<div class="col-md-1 col-sm-1 arrow"><i class="fa fa-angle-left fa-3x" id='left-quote-btn'></i></div>
-				<div class="col-md-8 col-md-offset-1 col-sm-8 col-sm-offset-1">
+				<!-- used to be col-sm-offset-1-->
+				<div class="col-md-8 col-md-offset-1 col-sm-8 col-sm-offset-0">
 					<div class="quote" id="quote-0">
-						<h3>Matthew Sullivan</h3>
+						<h3>Matthew Sullivan - Google Business Review</h3>
 						<p>"This place is so caring to my dog and makes sure he is taken care of. The staff is so friendly and I can tell from how he reacts to them that they treat my dog so well. This really is a great place."</p>
 					</div>
 					<div class="quote" id="quote-1">
-						<h3>Joanne Fung</h3>
+						<h3>Joanne Fung - Google Business Review</h3>
 						<p>"This is a great place to bring our lab mix Gracie.  She always come back tired and happy. Notably, when we were unable to pick up Gracie from an extended trip. The people at The Dog Resort were more than happy to work with us and keep Gracie feeling loved.  I highly recommend bringing your dog here. "</p>
 					</div>
 					<div class="quote" id="quote-2">
-						<h3>Kirsten Solberg</h3>
+						<h3>Kirsten Solberg - Google Business Review</h3>
 						<p>"I love this place because everyone is friendly and caring and treats me and my dog with sincerity. They provide comforting and personal interactions with both owner and pet. I really appreciate that they will check in with me "</p>
 					</div>
 					<div class="quote" id="quote-3">
-						<h3>Joseph Mirowski</h3>
+						<h3>Joseph Mirowski - Google Business Review</h3>
 						<p>"Great hours, open very earily, convenient location And friendly staff. We drop our two, four legged children there twice a week. They love going and are always well worn when we go to pick them up."</p>
 					</div>
 					<div class="quote" id="quote-4">
-						<h3>Breanne Williamson</h3>
+						<h3>Breanne Williamson - Google Business Review</h3>
 						<p>"The staff is all very outgoing and caring, and my once shy dog as now turned in to an outgoing girl! The hours for pick up and drop off are some of the best in the city, and I love knowing that I can leave her over night at her favorite play place if I am going to be stuck at work really late. I would highly recommend them to anyone looking for an awesome north end day care!"</p>
 					</div>															
 				</div>
@@ -241,33 +240,19 @@
 		</div>
 
 		<div class="row vote" id="vote-text">
-			<div class="col-md-6 col-md-offset-2">
+			<div class="col-md-6 col-md-offset-2 col-sm-12 col-sm-offset-0">
 				<h1>What are you waiting for?</h1> 
 				<h1 style="margin-bottom: 40px;">vote now!</h1>
+					<button id="a-boarding-btn-2"class="btn vote-link" style="display: block; padding-top: 10px; padding-bottom: 10px; margin-bottom:0px;">
+						<span style="display: block; margin-bottom: -15px;">Vote</span>
+						<span class="small" style="font-size: 0.7em;">Seattle A-List: Best Boarding</span>
+					</button>
 
-				<button class="btn vote-link" style="margin-bottom: 10px; display:block; padding-top:10px; padding-bottom: 10px;" id="best-wash-btn-2">
-					<span style="display: block; margin-bottom: -15px;">Vote</span>
-					<span class="small" style="font-size: 0.7em;">Best of Western Washington</span>
-				</button>
+					<button id="a-doggie-btn-2" class="btn vote-link" style="display: block; padding-top: 10px; padding-bottom: 10px; margin-bottom: 0px; margin-top: 30px;">
+						<span style="display:block; margin-bottom: -15px;">Vote</span>
+						<span class="small" style="font-size: 0.7em;">Seattle A-List: Best Doggie Daycare</span>
+					</button>
 
-				<button id="a-boarding-btn-2"class="btn vote-link" style="display: block; padding-top: 10px; padding-bottom: 10px; margin-bottom:10px;">
-					<span style="display: block; margin-bottom: -15px;">Vote</span>
-					<span class="small" style="font-size: 0.7em;">Seattle A-List: Best Boarding</span>
-				</button>
-
-				<button id="a-doggie-btn-2" class="btn vote-link" style="display: block; padding-top: 10px; padding-bottom: 10px; margin-bottom: 20px;">
-					<span style="display:block; margin-bottom: -15px;">Vote</span>
-					<span class="small" style="font-size: 0.7em;">Seattle A-List: Best Doggie Daycare</span>
-				</button>
-
-
-				<!-- 
-				<p>Help us out by sharing our campaign!</p>
-				<div class="row" style="margin-left: -5px; margin-right: 0px;">
-					<a class="btn share-btn"><i class="fa fa-facebook"></i>share</a>
-					<a class="btn share-btn"><i class="fa fa-twitter"></i>share</a>
-				</div>
-				-->
 			</div>
 		</div>
 

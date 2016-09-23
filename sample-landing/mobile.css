@@ -1,0 +1,93 @@
+/* MOBILE SCREENS
+----------------------------------------------------------------- */
+@media only screen and (max-device-width: 500px) {
+	html, body {
+		overflow-x: hidden;
+		width: 100%;
+		height: 100%;
+		padding: 0px;
+		margin:0px;
+	}
+
+	body {
+		margin-left: 0px;
+	}
+
+	.container-fluid {
+		position: relative;
+		margin-left: 0px;
+		padding-left: 0px;
+	}
+
+	.row {
+		width: 100%;
+		margin: 0px;
+		padding: 0px;
+	}
+
+	#home-text {
+		margin-left: 0px;
+	}
+
+	.home {
+		padding-left: 0px;
+		margin-left: 0px;
+	}
+
+	.background-container img {
+		min-height: 0px;
+		/* 
+		min-width: 0px;
+		*/
+	}
+
+	#home-btn-container {
+		display: initial;
+	}
+
+	#a-doggie-btn {
+		margin-top: 10px;
+	}
+
+	.profile-pic {
+		margin-top: 5%;
+	}
+
+	.about h1 {
+		text-align: center;
+	}
+
+	#about-text {
+		text-align: center;
+	}
+
+	#work-text div.col-md-4 {
+		text-align: center;
+	}
+
+	#awards-text h1 {
+		text-align: center;
+	}
+
+	#awards-text p {
+		margin-left: 10%;
+	}
+}
+
+/* IPHONE 6 */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) { 
+	html, body {
+		overflow-x: hidden;
+		width: 100%;
+	}
+
+	.row {
+		width: 100%;
+		margin: 0px;
+		padding: 0px;
+	}
+}
+
+
